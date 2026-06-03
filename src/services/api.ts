@@ -5,5 +5,9 @@ export async function getCharacters(): Promise<Character[]> {
     "https://dragonball-api.com/api/characters"
   );
 
-  return response.json();
+  const data = await response.json();
+
+  console.log(data);
+
+  return data.items;
 }
