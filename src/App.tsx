@@ -1,11 +1,11 @@
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { HashRouter, Routes, Route, Link } from "react-router-dom";
 
 import Home from "./pages/Home";
 import Entities from "./pages/Entities";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter >
       <nav className="flex gap-4 border-b p-4">
         <Link to="/">Home</Link>
         <Link to="/entities">Entities</Link>
@@ -15,7 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/entities" element={<Entities />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter >
   );
 }
 
