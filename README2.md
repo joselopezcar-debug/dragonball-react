@@ -46,7 +46,7 @@ src/
 Clonar el repositorio:
 
 ```bash
-git clone https://github.com/TU-USUARIO/dragonball-react.git
+git clone https://github.com/joselopezcar-debug/dragonball-react.git
 ```
 
 Ingresar al proyecto:
