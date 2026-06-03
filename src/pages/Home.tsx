@@ -35,8 +35,8 @@ export default function Home() {
                 className="rounded-md"
               />
 
-              <p>Status: {character.race}</p>
-              <p>Species: {character.gender}</p>
+              <p>Status: {character.gender}</p>
+              <p>Species: {character.race}</p>
             </CardContent>
           </Card>
         ))}

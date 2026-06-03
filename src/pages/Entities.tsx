@@ -22,8 +22,8 @@ export default function Entities() {
             className="rounded border p-3"
           >
             <p>Name: {character.name}</p>
-            <p>Status: {character.race}</p>
-            <p>Species: {character.gender}</p>
+            <p>Status: {character.gender}</p>
+            <p>Species: {character.race}</p>
           </li>
         ))}
       </ul>
